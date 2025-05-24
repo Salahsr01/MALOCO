@@ -1,0 +1,36 @@
+{
+  "name": "saas-doc-gen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+    // Placeholder for PDF generation:
+    // "pdf-lib": "^1.17.1", // or "puppeteer": "^22.x.x"
+
+    // Placeholder for Database (Supabase):
+    // "@supabase/supabase-js": "^2.x.x",
+
+    // Placeholder for Authentication (Clerk or Supabase Auth):
+    // "@clerk/nextjs": "^4.x.x", // or use Supabase Auth
+
+    // Placeholder for Payments (Stripe):
+    // "stripe": "^14.x.x",
+    // "@stripe/stripe-js": "^2.x.x"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "@types/react": "18.3.2",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.4.5",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3"
+  }
+}
